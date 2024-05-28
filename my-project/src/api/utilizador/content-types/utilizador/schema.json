@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "utilizadors",
+  "info": {
+    "singularName": "utilizador",
+    "pluralName": "utilizadors",
+    "displayName": "Utilizador",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "required": false
+    },
+    "pontos": {
+      "type": "string"
+    },
+    "nivel": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}
