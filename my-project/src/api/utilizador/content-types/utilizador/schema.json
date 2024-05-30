@@ -28,6 +28,9 @@
     "premios": {
       "type": "integer",
       "default": 0
+    },
+    "maxpontos": {
+      "type": "biginteger"
     }
   }
 }
