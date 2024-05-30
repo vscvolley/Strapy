@@ -401,6 +401,7 @@ export interface ApiUtilizadorUtilizador extends Schema.CollectionType {
     pontos: Attribute.String;
     nivel: Attribute.String;
     email: Attribute.String;
+    premios: Attribute.Integer & Attribute.DefaultTo<0>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

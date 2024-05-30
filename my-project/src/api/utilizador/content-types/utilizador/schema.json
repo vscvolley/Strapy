@@ -24,6 +24,10 @@
     },
     "email": {
       "type": "string"
+    },
+    "premios": {
+      "type": "integer",
+      "default": 0
     }
   }
 }
