@@ -31,6 +31,9 @@
     },
     "maxpontos": {
       "type": "biginteger"
+    },
+    "lista": {
+      "type": "text"
     }
   }
 }
